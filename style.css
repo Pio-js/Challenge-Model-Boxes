@@ -1,0 +1,39 @@
+main {
+    background-color: indigo;
+    width: 300px;
+}
+
+main > section:nth-child(odd) {
+    background-color: black;
+    color: white;
+}
+
+main > section:nth-child(even) {
+    background-color: antiquewhite;
+}
+
+section > div {
+    background-color: turquoise;
+    padding-bottom: 10px;
+    color: rgb(100, 100, 100);
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: -10px;
+}
+
+h2 {
+    padding-top: 10px;
+    margin-block-end: 0em;
+}
+
+h3 {
+    padding-top: 5px;
+    margin-block-end: 0em;
+}
+
